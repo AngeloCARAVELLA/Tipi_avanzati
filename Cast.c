@@ -4,14 +4,15 @@ int main()
 {
 /*dichiarazione*/
 double a;
+int b ;
 /*inserimento*/
 printf("inserisci un valore in virgola mobile");
 scanf("%lf",&a);
 /*cast*/
-int b = (int)a;
+b = (int)a;
 /*stampe*/
 printf("il tuo numero in virgola mobile e' %f\n",a);
-printf("il tuo numero in virgola mobile e' %d\n",b);
+printf("Dopo averlo traformato in intero e' %d\n",b);
 
 return 0;
 }
