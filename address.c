@@ -7,11 +7,11 @@ int main()
 /* dichiarazione */ 
   float a;
 /* puntatore */
-  float *a_P;
+  float *P_a;
 /* assegnazione della variabile al corrispettivo puntatore */ 
-  a_P = &a ;
+  P_a = &a ;
   /* stampa */ 
-  printf("L'indirizzo di a e': %p\n", a_P);
+  printf("L'indirizzo di a e': %p\n", P_a);
 
 
 
